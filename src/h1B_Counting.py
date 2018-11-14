@@ -50,8 +50,8 @@ else:
                         firstRow = firstRow+1
         #Read the relevant fields
                 if(len(fields)>1):        
-                        case_status = fields[case_index].strip('\"')
-                        app_State = fields[state_index].strip('\"')
+                        case_status = fields[case_index]
+                        app_State = fields[state_index]
                         prof_Name = fields[prof_index].strip('\"')
                                 
                 #filter for records which are only certified (CASE_STATUS = "CERTIFIED").
