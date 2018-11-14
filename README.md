@@ -1,2 +1,2 @@
 # Insight_Assignment
-Test Project to gather data on processed and certified H1B visa applications.
+Project for Insight valuation This file is specifically built to be used to do the H1B approval analysis on an yearly basis. Python file takes three parameters as inputs a. Source file should be in semicolon(;) separated format. b. Output File: Occupations.txt - lists the top 10 occupations that have been approved with total count and approval percentage c. Output File: States.txt - Lists the top 10 states that have largest number of H1B workers based and working there. please make sure that all the folders and files exist in the desired format for the program to run properly. You can change the path by editing the shell file and providing details in the arguments.
